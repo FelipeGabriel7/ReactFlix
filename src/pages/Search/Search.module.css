@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.title{
+    margin: 2em auto;
+    text-align: center;
+}
+
+.component{
+    margin: 0.1rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

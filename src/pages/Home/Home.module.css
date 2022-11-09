@@ -1,0 +1,19 @@
+.content{
+    margin: 1em auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
