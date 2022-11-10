@@ -24,6 +24,8 @@
 
 @media(max-width: 500px){
     .navbar{
+        justify-content: center;
+        gap: 0.5rem;
         text-align: center;
     }
 }

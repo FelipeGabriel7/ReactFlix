@@ -35,9 +35,9 @@ export const Home = () => {
       <div className={styles.movies}>
         {movies &&
           movies.map((movie) => (
-            <div key={movie.id}>
-              <Card id={movie.id} className={styles.card} title={movie.title} avaliate={movie.vote_average} image={movie.poster_path}/>
-            </div>
+            <>
+              <Card key={movie.id} id={movie.id} className={styles.card} title={movie.title} avaliate={movie.vote_average} image={movie.poster_path}/>
+            </>
           ))}
       </div>
     </div>
